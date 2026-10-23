@@ -30,39 +30,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global GIS and web mapping software market is estimated at approximately $10B–$14B (projected to reach $20B–$30B+ over the next decade at an 8%–15% CAGR). The market is moderately concentrated at the enterprise layer—dominated by heavyweights like Google and Esri—while exhibiting high fragmentation across the developer and web mapping tiers where competitive alternatives (Mapbox, MapTiler, CARTO) and open-source ecosystems flourish.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Mapbox](https://www.mapbox.com/)** | Vector tile maps with Mapbox GL JS, Studio for style editing, and extensive location APIs. | Billed by **tile requests** and MAUs for mobile. Vector and raster tiles counted separately; compositing sources in Studio reduces tile count . | **Free tier included** but exact limits not published on public pricing docs; requires account for current allowances . |
-
-| **[Google Maps Platform](https://developers.google.com/maps)** | Comprehensive maps, routes, and places APIs with global coverage. | **Starter**: $100/month (50,000 calls). **Essentials**: $275/month (100,000 calls). **Pro**: $1,200/month (250,000 calls). Overage at standard pay-as-you-go rates . | **No-cost SKUs** (Maps SDK, Embed) do not count toward subscription limits. $200 monthly credit for new accounts (legacy). |
-
-| **[HERE Technologies](https://www.here.com/)** | Location platform with maps, routing, and traffic APIs. | Freemium **250,000 requests/month** free; pay-as-you-go from **€1 per 1,000 transactions**; enterprise volume pricing available . | **250,000 requests/month** free tier. |
-
-| **[TomTom](https://www.tomtom.com/)** | Maps, traffic, and routing APIs with Orbis Maps. | **Map Display API Vector Tiles**: free 200,000/month. **Raster Tiles**: free 20,000/month. **Places Search**: free 10,000/month. Pay-as-you-go beyond free tiers . | Free tiers vary by API: **200K vector tiles/month**, 20K raster tiles, 10K place searches, 2.5K geocoding requests. No credit card required for evaluation . |
-
-| **[MapTiler](https://www.maptiler.com/)** | Map hosting, geocoding, and self-hosted map server options. | **On-prem Free**: $0 for non-commercial, max 100 MAU. **On-prem Standard**: $2,500/year for single internal app, max 500 MAU. **Custom**: annual contract for larger deployments . | **On-prem Free**: non-commercial only, 100 MAU maximum. No free commercial tier for self-hosted . |
-
-| **[CARTO](https://carto.com/)** | Cloud-native location intelligence platform built on data warehouses. | **Basemaps Commercial**: $500/month or $5,000/year for up to 10M requests. **Commercial Plus**: $1,500/month or $15,000/year for 50M requests . | **Non-commercial**: 5M tile requests/month free. **Commercial**: 1M tile requests/month free (requires attribution, API key) . |
-
-| **[Esri ArcGIS](https://www.esri.com/)** | Enterprise GIS platform with ArcGIS Online and ArcGIS Pro. | **ArcGIS Online Professional Plus**: ~₩20,572,000/year (~$15,000 USD) per user (1-49 tier) . Enterprise agreements custom. | **ArcGIS Free Tier**: limited ArcGIS Online features for personal use. Developer accounts available for testing. |
-
-
+| Product | Company Scale / Valuation | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Maps Platform](https://developers.google.com/maps)** | ~$4.0 Trillion Market Cap (Alphabet) | Comprehensive maps, routes, and places APIs with global coverage. | Pay-as-you-go from **$7.00 per 1,000 Dynamic Maps requests** (or subscription tiers starting at **$100/month** Starter tier covering up to 50,000 calls). | **$200 recurring monthly credit** (covers up to 28,500 Dynamic Map loads/month free); unlimited no-cost Mobile Native SDK map loads and Embeds. |
+| **[Esri ArcGIS](https://www.esri.com/)** | ~$4.0B–$4.5B Valuation (~$1.5B Annual Revenue) | Enterprise GIS platform with ArcGIS Location Platform and ArcGIS Online. | Pay-as-you-go starting at **$0.15 per 1,000 tiles** or **$4.00 per 1,000 map sessions**; Creator commercial plans start at **$550/year**. | **Free Developer Account**: 2,000,000 basemap tiles/month, 1,000 basemap sessions/month, 20,000 geocodes/month, and 100 MB feature data storage (free forever, no credit card required). |
+| **[HERE Technologies](https://www.here.com/)** | ~$2.5B–$4.0B Valuation (~$1.0B+ Annual Revenue) | Location platform with maps, routing, geocoding, and traffic APIs. | Freemium pay-as-you-go starting at **€1.00 per 1,000 transactions** for volume exceeding the free allowance; custom enterprise contracts available. | **250,000 transactions/month free** forever across map tile, routing, and search APIs (no credit card required to start). |
+| **[Mapbox](https://www.mapbox.com/)** | ~$1.3B Valuation (~$100M+ Annual Revenue) | Vector tile maps with Mapbox GL JS, Studio for style editing, and extensive location APIs. | Pay-as-you-go starting at **$5.00 per 1,000 web map loads** beyond the free threshold, with volume discounting down to $3.00/1K loads. | **50,000 web map loads/month free**, 100,000 temporary geocoding requests/month, 100,000 Directions requests/month, and free Mapbox Studio access (free forever). |
+| **[TomTom](https://www.tomtom.com/)** | ~$530M Market Cap (~$550M–$600M Annual Revenue) | Maps, traffic, and routing APIs powered by Orbis Maps. | Pay-as-you-go starting at **$0.50 per 1,000 API requests** beyond free tiers; custom enterprise volume contracts available. | **200,000 vector tiles/month free**, 20,000 raster tiles/month, 10,000 place searches/month, and 2,500 routing transactions/month (free forever, no credit card required). |
+| **[CARTO](https://carto.com/)** | ~$300M Valuation (~$30M Annual Revenue) | Cloud-native location intelligence platform built on data warehouses (Snowflake, BigQuery). | Pay-as-you-go cloud consumption tiers or commercial basemap plans starting at **$500/month** ($5,000/year for 10M requests). | **14-day free trial** with full platform capabilities; free Basemaps tier provides up to **1,000,000 tile requests/month free** for commercial use (with attribution) or 5,000,000 tiles/month for non-commercial use. |
+| **[MapTiler](https://www.maptiler.com/)** | ~$6M–$7M Annual Revenue (Bootstrapped / Profitable) | Map hosting, geocoding, and self-hosted map server options. | **Flex Plan starting at $30/month** (includes 25,000 map sessions & 500,000 API requests; overage at $2.50/1K sessions and $0.15/1K requests). | **Free Plan**: 5,000 map sessions/month, 100,000 API requests/month, and 5 GB storage for non-commercial/testing use (free forever, MapTiler logo required). |
 
 ## Open-Source GitHub Projects
 
