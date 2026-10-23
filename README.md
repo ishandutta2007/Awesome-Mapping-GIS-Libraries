@@ -133,3 +133,12 @@ Thank you for exploring and utilizing this mapping and GIS guide! If this projec
   <b>Built with ❤️ for web developers, GIS engineers, cartographers, and geospatial analysts worldwide.</b><br />
   <sub>Let's make mapping, spatial analysis, and location intelligence open, performant, and accessible.</sub>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Mapping-GIS-Libraries&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mapping-GIS-Libraries_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mapping-GIS-Libraries_growth.svg">
+  </picture>
+</a>
